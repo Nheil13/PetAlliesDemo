@@ -43,7 +43,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/anton"
-                        android:text="@string/activity_title"
+                        android:text="@string/message_title"
                         android:textColor="@color/white"
                         android:textSize="30sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +68,7 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:contentDescription="@string/announcement_banner"
-                    android:tag="https://drive.google.com/uc?id=1vwEds8yHlGdqKs_VSW3sXyu-RTeJyX-Z"
+                    android:tag="https://drive.google.com/uc?id=1XwOXpSfpUMMjdP-jITNv_NQTuFCP0q5a"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -86,8 +86,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="400dp"
-                    android:layout_marginBottom="200dp">
+                    android:layout_height="600dp"
+                    android:layout_marginBottom="50dp">
 
                     <!-- Location Section -->
                     <androidx.cardview.widget.CardView
@@ -119,12 +119,14 @@
                                 app:layout_constraintBottom_toBottomOf="parent"/>
 
                             <ImageView
+                                android:id="@+id/imageLocation"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_margin="30dp"
                                 android:tag="https://drive.google.com/uc?id=14GsK4RmZ4IlshwJPrTlm6vjdnRIPpxmu"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"/>
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:contentDescription="@string/location_image"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -169,12 +171,14 @@
                                 app:layout_constraintBottom_toBottomOf="parent"/>
 
                             <ImageView
+                                android:id="@+id/imageContacts"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_margin="30dp"
                                 android:tag="https://drive.google.com/uc?id=14dcnft2n4-1J6U_db0YWiDabEsM8FVbt"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"/>
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:contentDescription="@string/contact_image"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -222,12 +226,14 @@
                                 app:layout_constraintBottom_toBottomOf="parent"/>
 
                             <ImageView
+                                android:id="@+id/imageEmail"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_margin="30dp"
                                 android:tag="https://drive.google.com/uc?id=1fZ7xzCTceMPmTSCh5iutKn5cyYCMxuQK"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"/>
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:contentDescription="@string/contact_image"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -237,6 +243,58 @@
                                 android:textColor="@color/black"
                                 app:layout_constraintTop_toBottomOf="@id/textEmail"
                                 app:layout_constraintStart_toStartOf="@id/textEmail" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Facebook Section -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/facebook"
+                        android:layout_width="370dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/email">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/textFacebook"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="70dp"
+                                android:fontFamily="@font/poppins"
+                                android:padding="10dp"
+                                android:text="@string/facebook"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageView
+                                android:id="@+id/imageFacebook"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_margin="30dp"
+                                android:tag="https://drive.google.com/uc?id=1NwEvqt08cvgKhPxhyQP9LvIy3qABRqjA"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:contentDescription="@string/facebook_image"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:text="@string/facebook_page_name"
+                                android:textColor="@color/black"
+                                app:layout_constraintTop_toBottomOf="@id/textFacebook"
+                                app:layout_constraintStart_toStartOf="@id/textFacebook" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
