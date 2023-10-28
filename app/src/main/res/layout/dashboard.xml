@@ -131,6 +131,7 @@
                                 android:layout_height="100dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginTop="16dp"
+                                android:tag="https://drive.google.com/uc?id=1PYgSHRstKm2LHHse_4tPaguZTXV-IbCG"
                                 android:contentDescription="@string/product_image_logo" />
 
                             <TextView
@@ -173,6 +174,7 @@
                                 android:layout_height="100dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginTop="16dp"
+                                android:tag="https://drive.google.com/uc?id=1sFkQeXgDDIpWViygCjvMEntu6US-vfaN"
                                 android:contentDescription="@string/services_image_logo" />
 
                             <TextView
@@ -216,6 +218,7 @@
                                 android:layout_height="100dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginTop="16dp"
+                                android:tag="https://drive.google.com/uc?id=1Sx1F2fXUaJsEfb70nX4r2c93-GkKEXns"
                                 android:contentDescription="@string/profile_image_logo" />
 
                             <TextView
@@ -258,6 +261,7 @@
                                 android:layout_height="100dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginTop="16dp"
+                                android:tag="https://drive.google.com/uc?id=1t_rQ1fevQ4Aqj_9UvkVagwxTe7PvGjEE"
                                 android:contentDescription="@string/about_us_image_logo" />
 
                             <TextView
