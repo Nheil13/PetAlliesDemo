@@ -40,4 +40,29 @@
     <string name="facebook">Facebook</string>
     <string name="facebook_page_name">Pet Allies - Animal Clinic</string>
 
+    <!-- About Us -->
+    <string name="about_us_title">About Us</string>
+
+    <!-- Login String -->
+    <string name="login_image_logo">Login Image</string>
+    <string name="login_greetings">Hi Paw-Allies, Welcome Back</string>
+    <string name="login_instruction">Sign In to continue</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="log_in_button">LOG IN</string>
+    <string name="register_button">NEW USER? SIGN UP</string>
+
+    <!-- Signup String -->
+    <string name="signup_greetings">Welcome aboard!</string>
+    <string name="signup_instructions">Take the first step by Signing Up</string>
+    <string name="pet_name_signup">Pet Name</string>
+    <string name="parent_name_signup">Parent Name</string>
+    <string name="email_signup">Email</string>
+    <string name="phone_no_signup">Phone No.</string>
+    <string name="password_signup">Password</string>
+    <string name="confirm_password_signup">Confirm Password</string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="login_in_sign_up_form">Already have an Account? LogIn</string>
+
 </resources>
