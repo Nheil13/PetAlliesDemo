@@ -64,5 +64,14 @@
     <string name="confirm_password_signup">Confirm Password</string>
     <string name="sign_up_button">SIGN UP</string>
     <string name="login_in_sign_up_form">Already have an Account? LogIn</string>
+    <string name="location_imageview">Location Imageview</string>
+    <string name="contact_imageview">Contact ImageView</string>
+    <string name="email_imageview">Email Imageview</string>
+    <string name="facebook_imageview">Facebook ImageView</string>
+    <string name="product_activity_title">Products</string>
+    <string name="categories">Categories</string>
+
+
+    <!-- Products String -->
 
 </resources>
